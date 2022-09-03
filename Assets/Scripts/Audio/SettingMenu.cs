@@ -20,8 +20,4 @@ public class SettingMenu : MonoBehaviour
         mixer.SetFloat("volume", volumeSlider.value);
     }
 
-    public void LoadLevel(int index)
-    {
-        SceneManager.LoadScene(index);
-    }
 }
